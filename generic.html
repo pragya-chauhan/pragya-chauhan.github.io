@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<link rel="shortcut icon" href="sun-16.ico" type="image/x-icon" />
+
+<head>
+    <title>GPU Acceleration for Genome Read Mapping</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Pragya Chauhan</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="index.html">About Me</a></li>
+                <li class="active"><a href="index.html#projects">Projects</a></li>
+                <li><a href="work.html">Work</a></li>
+
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/pragyachauhan/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+
+                <li><a href="https://github.com/pragya-chauhan" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+
+                <li><a href="mailto:pchauhan@alumni.stevens.edu" target="_top" class="icon brands fa fa-google"><span class="label">Email</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Post -->
+            <section class="post">
+                <header class="major">
+                    <h1>GPU Acceleration of Genome Read Mapping</h1>
+                    <p>This was my Master's Thesis for which I started with reading the bioinformatics and was drawn to the problem of mapping DNA sequences after they are read by the sequence generator. This introduced me to the world of Genome Analysis
+                        which incorporates software and hardware development beautifully. It required extreme dedication and hard work. But it was rewarding to research an application of computer engineering which impacts humans greatly.</p>
+                </header>
+
+                <p>
+                    <dl><dt>                    Thesis Background </dl>
+                </dt>
+                        <dd>
+                            <p>Mapping DNA reads against a reference genome remains to be a major bottleneck in the efficiency of DNA sequencers. Due to the massive length of genomic data, genome sequencing remains time-consuming. The existing algorithms
+                                have reached a bottleneck in performance and efforts are being made to optimize these using existing heterogeneous systems like multi-core processors, GPUs and FPGAs. </p>
+                        </dd>
+
+                        <dl><dt>           Approach for the Solution  </dl>
+                        </dt>
+                            <dd>
+                                <p>Since I have a concentration in hardware engineering, I was interested in exploring the power of GPUs in one of my projects. GPUs with their parallel processing and high speeds appear as a promising solution to this problem.
+                                    My research explores the acceleration potential of pattern matching algorithms used in genome sequencers on a GPU. Results I focused on implementing Knuth-Morris-Pratt (KMP) and Boyer-Moore algorithms sequentially on
+                                    a CPU using C++ and parallelly on a GPU using CUDA C. From the results obtained I observed that parallel computing of algorithms results in better performance as the execution time is lesser compared to sequential computing.
+                                    I obtained a speedup of 13 for KMP and 7 for the Boyer Moore algorithm. This serves as a prospect for future research in exploiting GPU computing to solve the read mapping problem.
+                                </p>
+                            </dd>
+
+
+                            <dl><dt>    Skills used </dl>
+                            </dt>
+
+                                <ul>
+                                    <li>String Matching Algorithms</li>
+                                    <li>C++</li>
+                                    <li>AWS P2 GPU instances</li>
+                                    <li>CUDA C</li>
+                                    <li>Collaboration with thesis advisor and time - management skills</li>
+                                    <li>Presentation skills for defense</li>
+                                    <li>Research tools: Mendeley, Overleaf and Zotero</li>
+                                    <li>Reading and comprehension skills for journals and papers</li>
+                                </ul>
+
+                </p>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+
+            <section class="split contact">
+
+                <section>
+                    <h3>Email</h3>
+                    <p><a target="_top" href="mailto:pchauhan@alumni.stevens.edu">pchauhan@alumni.stevens.edu</a></p>
+                </section>
+                <section>
+                    <h3>Social</h3>
+                    <ul class="icons alt">
+                        <li><a href="https://www.linkedin.com/in/pragyachauhan/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+                        <li><a href="https://github.com/pragya-chauhan" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>&copy; Untitled</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
